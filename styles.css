@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f4f4f4;
+}
+
+h1{
+    text-align:center;
+}
+
+.autores{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.panel, .botones{
+    margin:15px 0;
+}
+
+button{
+    padding:10px;
+    margin:5px;
+    cursor:pointer;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top:15px;
+}
+
+td{
+    border:1px solid black;
+    padding:5px;
+}
+
+input[type="number"]{
+    width:60px;
+}
+
+#salida{
+    background:white;
+    border:1px solid gray;
+    padding:15px;
+    min-height:200px;
+    overflow:auto;
+}

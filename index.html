@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Determinante por Método de Cofactores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>DETERMINANTE POR MÉTODO DE COFACTORES</h1>
+
+    <div class="autores">
+        Julio Chajil<br>
+        Christian Camey<br>
+        Fredy Yoc
+    </div>
+
+    <div class="panel">
+        <label>Tamaño de la matriz:</label>
+        <input type="number" id="tamano" min="1">
+        <button onclick="crearMatriz()">Ingresar Matriz</button>
+    </div>
+
+    <div id="contenedorMatriz"></div>
+
+    <div class="botones">
+        <button onclick="mostrarMatriz()">Mostrar Matriz</button>
+        <button onclick="calcularDeterminante()">Calcular Determinante</button>
+        <button onclick="limpiar()">Limpiar</button>
+    </div>
+
+    <h2>Resultado</h2>
+    <pre id="salida"></pre>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
